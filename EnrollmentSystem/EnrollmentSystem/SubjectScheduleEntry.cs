@@ -18,7 +18,7 @@ namespace EnrollmentSystem
             InitializeComponent();
         }
 
-        string connectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = C:\Users\BLAISE LORENZ\Desktop\FINALSS\Bernabe.accdb";
+        string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\\Server2\second semester 2023-2024\LAB802\79286_CC_APPSDEV22_1030_1230_PM_MW\79286-23207764\Desktop\EnrollmentSystem-main\Bernabe.accdb";
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -83,6 +83,18 @@ namespace EnrollmentSystem
             thisAdapter.Update(thisDataSet, "SubjectScheduleFile");
 
             MessageBox.Show("Recorded");
+        }
+
+        private void SubjectScheduleEntry_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            EnrollmentEntryForm form = new EnrollmentEntryForm();
+            form.Show();
+            this.Hide();
         }
     }
 }

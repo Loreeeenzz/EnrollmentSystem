@@ -52,6 +52,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,9 +61,10 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(325, 45);
+            this.label8.Location = new System.Drawing.Point(244, 37);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(409, 33);
+            this.label8.Size = new System.Drawing.Size(327, 26);
             this.label8.TabIndex = 2;
             this.label8.Text = "SUBJECT SCHEDULE ENTRY";
             // 
@@ -89,18 +91,21 @@
             this.groupBox1.Controls.Add(this.EdpCodeTextBox);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(164, 110);
+            this.groupBox1.Location = new System.Drawing.Point(123, 89);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(759, 324);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(569, 263);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
             // SaveButton
             // 
             this.SaveButton.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SaveButton.Location = new System.Drawing.Point(516, 207);
+            this.SaveButton.Location = new System.Drawing.Point(387, 168);
+            this.SaveButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(70, 31);
+            this.SaveButton.Size = new System.Drawing.Size(52, 25);
             this.SaveButton.TabIndex = 22;
             this.SaveButton.Text = "SAVE";
             this.SaveButton.UseVisualStyleBackColor = true;
@@ -111,9 +116,10 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.Control;
-            this.label12.Location = new System.Drawing.Point(385, 110);
+            this.label12.Location = new System.Drawing.Point(288, 87);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(57, 18);
+            this.label12.Size = new System.Drawing.Size(46, 15);
             this.label12.TabIndex = 21;
             this.label12.Text = "AM/PM";
             // 
@@ -122,37 +128,43 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.Control;
-            this.label10.Location = new System.Drawing.Point(385, 50);
+            this.label10.Location = new System.Drawing.Point(289, 41);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(112, 18);
+            this.label10.Size = new System.Drawing.Size(84, 15);
             this.label10.TabIndex = 20;
             this.label10.Text = "DESCRIPTION";
             // 
             // AmPmComboBox
             // 
+            this.AmPmComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.AmPmComboBox.FormattingEnabled = true;
             this.AmPmComboBox.Items.AddRange(new object[] {
             "AM",
             "PM"});
-            this.AmPmComboBox.Location = new System.Drawing.Point(525, 104);
+            this.AmPmComboBox.Location = new System.Drawing.Point(372, 84);
+            this.AmPmComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AmPmComboBox.Name = "AmPmComboBox";
-            this.AmPmComboBox.Size = new System.Drawing.Size(141, 24);
+            this.AmPmComboBox.Size = new System.Drawing.Size(107, 23);
             this.AmPmComboBox.TabIndex = 19;
             // 
             // DescriptionLabel
             // 
             this.DescriptionLabel.BackColor = System.Drawing.Color.CornflowerBlue;
             this.DescriptionLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.DescriptionLabel.Location = new System.Drawing.Point(388, 76);
+            this.DescriptionLabel.Location = new System.Drawing.Point(291, 62);
+            this.DescriptionLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DescriptionLabel.Name = "DescriptionLabel";
-            this.DescriptionLabel.Size = new System.Drawing.Size(331, 22);
+            this.DescriptionLabel.Size = new System.Drawing.Size(249, 18);
             this.DescriptionLabel.TabIndex = 17;
             // 
             // SchoolYearTextBox
             // 
-            this.SchoolYearTextBox.Location = new System.Drawing.Point(196, 246);
+            this.SchoolYearTextBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.SchoolYearTextBox.Location = new System.Drawing.Point(147, 214);
+            this.SchoolYearTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SchoolYearTextBox.Name = "SchoolYearTextBox";
-            this.SchoolYearTextBox.Size = new System.Drawing.Size(141, 22);
+            this.SchoolYearTextBox.Size = new System.Drawing.Size(107, 21);
             this.SchoolYearTextBox.TabIndex = 15;
             // 
             // label9
@@ -160,24 +172,29 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Control;
-            this.label9.Location = new System.Drawing.Point(36, 248);
+            this.label9.Location = new System.Drawing.Point(27, 217);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(117, 18);
+            this.label9.Size = new System.Drawing.Size(89, 15);
             this.label9.TabIndex = 8;
             this.label9.Text = "SCHOOL YEAR";
             // 
             // RoomTextBox
             // 
-            this.RoomTextBox.Location = new System.Drawing.Point(196, 218);
+            this.RoomTextBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.RoomTextBox.Location = new System.Drawing.Point(147, 189);
+            this.RoomTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RoomTextBox.Name = "RoomTextBox";
-            this.RoomTextBox.Size = new System.Drawing.Size(141, 22);
+            this.RoomTextBox.Size = new System.Drawing.Size(107, 21);
             this.RoomTextBox.TabIndex = 14;
             // 
             // SectionTextBox
             // 
-            this.SectionTextBox.Location = new System.Drawing.Point(196, 190);
+            this.SectionTextBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.SectionTextBox.Location = new System.Drawing.Point(147, 164);
+            this.SectionTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SectionTextBox.Name = "SectionTextBox";
-            this.SectionTextBox.Size = new System.Drawing.Size(141, 22);
+            this.SectionTextBox.Size = new System.Drawing.Size(107, 21);
             this.SectionTextBox.TabIndex = 13;
             // 
             // label7
@@ -185,28 +202,33 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(36, 220);
+            this.label7.Location = new System.Drawing.Point(27, 192);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 18);
+            this.label7.Size = new System.Drawing.Size(43, 15);
             this.label7.TabIndex = 7;
             this.label7.Text = "ROOM";
             // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.CustomFormat = "HH:mm";
+            this.dateTimePicker2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(196, 134);
+            this.dateTimePicker2.Location = new System.Drawing.Point(147, 114);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(141, 22);
+            this.dateTimePicker2.Size = new System.Drawing.Size(107, 21);
             this.dateTimePicker2.TabIndex = 12;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.CustomFormat = "HH:mm";
+            this.dateTimePicker1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(196, 106);
+            this.dateTimePicker1.Location = new System.Drawing.Point(147, 89);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(141, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(107, 21);
             this.dateTimePicker1.TabIndex = 11;
             // 
             // label6
@@ -214,17 +236,20 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(36, 192);
+            this.label6.Location = new System.Drawing.Point(27, 167);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 18);
+            this.label6.Size = new System.Drawing.Size(57, 15);
             this.label6.TabIndex = 6;
             this.label6.Text = "SECTION";
             // 
             // DaysTextBox
             // 
-            this.DaysTextBox.Location = new System.Drawing.Point(196, 162);
+            this.DaysTextBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.DaysTextBox.Location = new System.Drawing.Point(147, 139);
+            this.DaysTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DaysTextBox.Name = "DaysTextBox";
-            this.DaysTextBox.Size = new System.Drawing.Size(141, 22);
+            this.DaysTextBox.Size = new System.Drawing.Size(107, 21);
             this.DaysTextBox.TabIndex = 10;
             // 
             // label5
@@ -232,9 +257,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(36, 164);
+            this.label5.Location = new System.Drawing.Point(27, 142);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 18);
+            this.label5.Size = new System.Drawing.Size(37, 15);
             this.label5.TabIndex = 5;
             this.label5.Text = "DAYS";
             // 
@@ -243,9 +269,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(36, 110);
+            this.label3.Location = new System.Drawing.Point(27, 94);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 18);
+            this.label3.Size = new System.Drawing.Size(74, 15);
             this.label3.TabIndex = 3;
             this.label3.Text = "START TIME";
             // 
@@ -254,25 +281,30 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(36, 138);
+            this.label4.Location = new System.Drawing.Point(27, 119);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 18);
+            this.label4.Size = new System.Drawing.Size(60, 15);
             this.label4.TabIndex = 4;
             this.label4.Text = "END TIME";
             // 
             // SubjectCodeTextBox
             // 
-            this.SubjectCodeTextBox.Location = new System.Drawing.Point(196, 78);
+            this.SubjectCodeTextBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.SubjectCodeTextBox.Location = new System.Drawing.Point(147, 64);
+            this.SubjectCodeTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SubjectCodeTextBox.Name = "SubjectCodeTextBox";
-            this.SubjectCodeTextBox.Size = new System.Drawing.Size(141, 22);
+            this.SubjectCodeTextBox.Size = new System.Drawing.Size(107, 21);
             this.SubjectCodeTextBox.TabIndex = 9;
             this.SubjectCodeTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.SubjectCodeTextBox_KeyPress);
             // 
             // EdpCodeTextBox
             // 
-            this.EdpCodeTextBox.Location = new System.Drawing.Point(196, 50);
+            this.EdpCodeTextBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.EdpCodeTextBox.Location = new System.Drawing.Point(147, 39);
+            this.EdpCodeTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.EdpCodeTextBox.Name = "EdpCodeTextBox";
-            this.EdpCodeTextBox.Size = new System.Drawing.Size(141, 22);
+            this.EdpCodeTextBox.Size = new System.Drawing.Size(107, 21);
             this.EdpCodeTextBox.TabIndex = 1;
             // 
             // label2
@@ -280,9 +312,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(36, 80);
+            this.label2.Location = new System.Drawing.Point(27, 67);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 18);
+            this.label2.Size = new System.Drawing.Size(95, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "SUBJECT CODE";
             // 
@@ -291,34 +324,51 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(36, 52);
+            this.label1.Location = new System.Drawing.Point(27, 42);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 18);
+            this.label1.Size = new System.Drawing.Size(65, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "EDP CODE";
             // 
             // button1
             // 
             this.button1.Image = global::EnrollmentSystem.Properties.Resources.Add_a_little_bit_of_body_text;
-            this.button1.Location = new System.Drawing.Point(44, 37);
+            this.button1.Location = new System.Drawing.Point(33, 30);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 41);
+            this.button1.Size = new System.Drawing.Size(34, 33);
             this.button1.TabIndex = 4;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.Image = global::EnrollmentSystem.Properties.Resources.Add_a_little_bit_of_body_text__2_;
+            this.button2.Location = new System.Drawing.Point(739, 30);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(34, 33);
+            this.button2.TabIndex = 6;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // SubjectScheduleEntry
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(1081, 503);
+            this.ClientSize = new System.Drawing.Size(811, 409);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label8);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "SubjectScheduleEntry";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SubjectScheduleEntry";
+            this.Load += new System.EventHandler(this.SubjectScheduleEntry_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -352,5 +402,6 @@
         private System.Windows.Forms.Button SaveButton;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button button2;
     }
 }
